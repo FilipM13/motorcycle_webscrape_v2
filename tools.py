@@ -139,7 +139,7 @@ def search(item_name: str, min_cc: int, max_cc: int, max_num=10):
 
   Parameters:
 
-  item_name: str - entry to be searched on webside
+  item_name: str - entry to be searched on website
 
   min_cc: int - minimal cc of motorcycle 
 
@@ -317,4 +317,17 @@ DO NOT INCLUDE special characters, spaces or file extension (.txt) in file name.
 Offers will be saved in this format:
   ofer_date - title - price PLN - url_link
 File with offers will be created in current directory of executable file.
+'''
+
+main_user_manual = '''
+----- USER MANUAL -----
+Answers will become filter used for searching olx website.
+'What motorcycle do you want to find?' - enter brand or more specified string (example: 'yamaha xt660x')
+'Enter minimal CC:' - enter minimal engine size (CC)
+'Enter minimal CC:' - enter maximal engine size (CC)
+WARNING if minimal CC will be larger than maximal CC errors may occur.
+'How many offers do you want to get?' - number of top newest offers (according to website) to show
+
+User manual will be displayed automatically every time you start program or when you answer yes after last question (about continuing).
+Answer any question with 'exit' to exit program.
 '''
