@@ -9,7 +9,7 @@ tools.py - small package of tools programmed by me to complete this project.
 test.py - manual tests for tools.py functions.
 read (.exe and .py)- script that run in cmd that enables user to fetch data from database
 
-main_manual_cmd (.exe and .py), tools.py, test.py, read (.exe and .py) will be uploaded soon.
+main_manual_cmd (.exe and .py), test.py, read (.exe) will be uploaded soon.
 
 Upgrade ideas:
 -more filters (entries) for searching
