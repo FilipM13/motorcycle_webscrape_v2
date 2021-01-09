@@ -3,7 +3,7 @@ This is a web scraping project. Goal is to search for specific motorcycles on ol
 Main technology is Python with MySQL database (requires MySQL installed on machine).
 
 Features:
-main_automatic (.exe and .py)- script that can be run with task manager with default search entries.
+main_automatic (.exe and .py)- script that can be run with task scheduler with default search entries.
 main_manual_cmd (.exe and .py)- script that run in cmd that enables user to input search entries manually.
 tools.py - small package of tools programmed by me to complete this project.
 test.py - manual tests for tools.py functions.
